@@ -1,24 +1,28 @@
 package br.com.barata.microservice.loja.service;
 
+import br.com.barata.microservice.loja.dto.InfoPedidoDTO;
+import br.com.barata.microservice.loja.model.Compra;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.barata.microservice.loja.client.FornecedorClient;
 import br.com.barata.microservice.loja.dto.CompraDTO;
 import br.com.barata.microservice.loja.dto.InfoFornecedorDTO;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-
 @Service
 public class CompraService {
-    String FORNECEDOR_BASE_URL = "http://fornecedor";
-    
-    @Autowired
-    private RestTemplate client;
+	String FORNECEDOR_BASE_URL = "http://fornecedor";
 
-    public void realizaCompra(CompraDTO compraDTO) {
-        ResponseEntity<InfoFornecedorDTO> fornecedorDTOResponseEntity = client.exchange(FORNECEDOR_BASE_URL + "/info/" + compraDTO.getEndereco().getEstado(),
-                HttpMethod.GET, null, InfoFornecedorDTO.class);
-        fornecedorDTOResponseEntity.getBody();
-    }
+	@Autowired
+	private FornecedorClient fornecedorClient;
+
+	public Compra realizaCompra(CompraDTO compraDTO) {
+		InfoFornecedorDTO infoFornecedorDTO = fornecedorClient.getInfoPorEstado(compraDTO.getEndereco().getEstado());
+		InfoPedidoDTO infoPedidoDTO = fornecedorClient.realizaPedido(compraDTO.getItens());
+		Compra compraSalva = new Compra();
+		compraSalva.setPedidoId(infoPedidoDTO.getId());
+		compraSalva.setTempoDePreparo(infoPedidoDTO.getTempoDePreparo());
+		compraSalva.setEnderecoDestino(compraDTO.getEndereco().toString());
+		return compraSalva;
+	}
 }

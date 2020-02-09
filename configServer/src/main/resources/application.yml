@@ -9,3 +9,17 @@ spring:
       server:
         native:
           search-locations: /home/pedro/git/alura/spring-cloud-microservices/microservices-repo
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: git@github.com:PedroBarata/microservice-alura-repo.git
+#          ignoreLocalSshSettings: true
+#          search-paths: fornecedor
+#          host-key: VWxC7bEXwS3/E72nMcZ1ZBL5OX7cXt/GJcUZ8S0bBAI
+#          hostKeyAlgorithm: ssh-rsa
+#          privateKey: |
+#            -----BEGIN RSA PRIVATE KEY-----
+#            AAAAB3NzaC1yc2EAAAADAQABAAACAQDYnFA7Ciq5YKwoY+yYUQc3Y3UxZKjjLRwl6jfqSnKbOSOuTg5H0As5Rrkw8up2SmhNPAULZlNxLna1irkAiXp9eCHJbdhCNXn9lu/S0vDmbQW2ElrKg94xoG1kfKtwFq6c+J8TZKJgmeNVW/7+8kHnzP6AS2CP6LXIVacA14os4KF7Hd0o3dibATPaBy2mEy+PZ9NMArx/1kFAlFmc85GWdr43wV1DHTklgkRYtUSSI56df2w/6bHTMEqHYECPs0qtIFRX9Q/MyxPA31gcFuXanpTfGs04+6OmgluPMKj67lgLZfQVY0wm52F++/o9U/aIloD4nghghvug1Pwf4N4SiqHrRL+as34HQc+mRQInkExSpyN2qb7NjX6M08n8NUsxTZIJ3W9Jz+rY11TubWYaX3ZOEH2Rvo8ne3PC/9E/5ITgVaNHneXO/EVuDCQhkb6X3cf1BDgGAVLemZJ0eUDb7yjWXhJgFcsTUL8h/ueQrsjNMpQhkoWwXTvRpO/kR556k0jh/26na01/u2ZyV2taHOt5XJpTbdYVj3yCWcUS4phM5wNReL5+YmLGDuOwDU+o7kQGRoPTFpDDU30RZ6POubE7mLs5qLfGKFEo7m5hhpv4W6C3TmjSElIUVceHWZSBppNT423BzosqB7ovEru6T4sJznUvkKp/XA7fnuY+sw==
+#            -----END RSA PRIVATE KEY-----
