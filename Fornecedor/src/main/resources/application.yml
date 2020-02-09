@@ -1,13 +1,5 @@
-spring:
-  application:
-    name: 'fornecedor'
-  data:
-    mongodb:
-      uri: mongodb+srv://pedro-spring-cloud-alura:cabeca24@spring-cluster-vglus.mongodb.net/test?retryWrites=true&w=majority
-      database: fornecedorDB
 server:
   port: 8081
-
 eureka:
   client:
     fetch-registry: true

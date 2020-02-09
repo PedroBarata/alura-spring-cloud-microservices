@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66378a0c-ef9c-45e9-a1a1-cb1c0fa8d4c0" name="Default Changelist" comment="" />
+    <list default="true" id="66378a0c-ef9c-45e9-a1a1-cb1c0fa8d4c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XXF26XOojv53ILP60WdiVS1Tjr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -30,7 +41,28 @@
       <option name="presentableId" value="Default" />
       <updated>1581184321025</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat(readme): Arquivo readme">
+      <created>1581194470134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581194470134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore(pdf): Arquivo PDF">
+      <created>1581194668347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581194668347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat(readme): Arquivo readme" />
+    <MESSAGE value="chore(pdf): Arquivo PDF" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(pdf): Arquivo PDF" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="125" width="800" height="684" key="#JSON_Schema_Mappings" timestamp="1581185023623">
@@ -49,18 +81,30 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="262" y="370" width="525" height="436" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1600.873@0.27.1600.873" timestamp="1581185395553" />
+    <state x="508" y="122" width="574" height="690" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581194517922">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="508" y="122" width="574" height="690" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1600.873@0.27.1600.873" timestamp="1581194517922" />
     <state x="641" y="355" width="307" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581185370222">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="641" y="355" width="307" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1600.873@0.27.1600.873" timestamp="1581185370222" />
-    <state x="395" y="172" width="789" height="597" key="FileChooserDialogImpl" timestamp="1581185454189">
+    <state x="364" y="57" width="862" height="819" key="CommitChangelistDialog2" timestamp="1581194666202">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="172" width="789" height="597" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1581185454189" />
-    <state x="283" y="41" width="1024" height="852" key="SettingsEditor" timestamp="1581185481903">
+    <state x="364" y="57" width="862" height="819" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1581194666202" />
+    <state x="395" y="172" width="789" height="597" key="FileChooserDialogImpl" timestamp="1581194635480">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="283" y="41" width="1024" height="852" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1581185481903" />
+    <state x="395" y="172" width="789" height="597" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1581194635480" />
+    <state x="283" y="41" width="1024" height="852" key="SettingsEditor" timestamp="1581194644558">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="283" y="41" width="1024" height="852" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1581194644558" />
+    <state x="395" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1581194669888">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="395" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1581194669888" />
     <state x="121" y="55" width="1347" height="824" key="new project wizard" timestamp="1581184790491">
       <screen x="0" y="27" width="1600" height="873" />
     </state>

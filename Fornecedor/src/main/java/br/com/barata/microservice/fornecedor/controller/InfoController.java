@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/info")
 public class InfoController {
@@ -18,5 +20,10 @@ public class InfoController {
     @GetMapping(value = "/{estado}")
     public InfoFornecedor getInfoPorEstado(@PathVariable("estado") String estado) {
        return infoService.getInfoPorEstado(estado);
+    }
+
+    @GetMapping()
+    public List<InfoFornecedor> findAll() {
+        return infoService.findAll();
     }
 }

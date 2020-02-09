@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://pedro-spring-cloud-alura:cg8re5%40%2712%273450kiSBFte6C@spring-cluster-vglus.mongodb.net/test?retryWrites=true&w=majority 
+      database: fornecedorDB

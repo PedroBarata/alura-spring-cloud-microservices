@@ -5,6 +5,8 @@ import br.com.barata.microservice.fornecedor.repository.InfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class InfoService {
 
@@ -13,5 +15,9 @@ public class InfoService {
 
     public InfoFornecedor getInfoPorEstado(String estado) {
         return infoRepository.findByEstado(estado);
+    }
+
+    public List<InfoFornecedor> findAll() {
+        return infoRepository.findAll();
     }
 }
