@@ -1,6 +1,12 @@
 package br.com.barata.microservice.loja.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "compra")
 public class Compra {
+
+	@Id
     private String pedidoId;
     private Integer tempoDePreparo;
     private String enderecoDestino;

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66378a0c-ef9c-45e9-a1a1-cb1c0fa8d4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loja/src/main/java/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/repository/CompraRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loja/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-repo/loja.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices-repo/microservices-repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/LojaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/LojaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/controller/LojaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/controller/LojaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/model/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/model/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/service/CompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/src/main/java/br/com/barata/microservice/loja/service/CompraService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
