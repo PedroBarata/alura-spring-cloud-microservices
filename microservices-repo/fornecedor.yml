@@ -1,5 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://pedro-spring-cloud-alura:cg8re5%40%2712%273450kiSBFte6C@spring-cluster-vglus.mongodb.net/test?retryWrites=true&w=majority&maxIdleTimeMS=60000&maxPoolSize=10&connectTimeoutMS=60000&socketTimeoutMS=60000
+      uri: mongodb://localhost:27017/admin?readPreference=primary&ssl=false
+      #      uri: mongodb+srv://pedro-spring-cloud-alura:cg8re5%40%2712%273450kiSBFte6C@spring-cluster-vglus.mongodb.net/test?ssl=true&serverSelectionTimeoutMS=2000&connectTimeoutMS=2000
       database: fornecedorDB

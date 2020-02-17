@@ -1,10 +1,23 @@
 package br.com.barata.microservice.loja.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.List;
 
 public class CompraDTO {
+
+    @JsonIgnore
+    private String compraId;
     private List<ItemCompraDTO> itens;
     private EnderecoDTO endereco;
+
+    public String getCompraId() {
+        return compraId;
+    }
+
+    public void setCompraId(String compraId) {
+        this.compraId = compraId;
+    }
 
     public List<ItemCompraDTO> getItens() {
         return itens;
